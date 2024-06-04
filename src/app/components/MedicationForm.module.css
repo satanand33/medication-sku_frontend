@@ -1,0 +1,60 @@
+/* src/app/components/MedicationForm.module.css */
+.form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .fieldGroup {
+    margin-bottom: 20px;
+  }
+  
+  .input {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: -3px;
+    font-weight: 500;
+    font-family: 'circular';
+    font-size: 13px;
+  }
+  
+  .submitButton {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #0070f3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .submitButton:hover {
+    background: #005bb5;
+  }
+  
+  .errorMessage {
+    color: red;
+    font-size: 11px;
+    font-weight: 100;
+    display: block;
+    font-family: 'circular';
+  }

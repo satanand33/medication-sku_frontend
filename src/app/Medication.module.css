@@ -1,0 +1,91 @@
+.container {
+  padding: 20px;
+}
+
+.heading {
+  padding: 0 20px;
+  text-align: center;
+  font-size: 21px;
+  font-family: sans-serif;
+  margin: 15px 0px;
+}
+
+.medicationList {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  grid-gap: 20px; 
+}
+
+.medication {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  border-left: 5px solid rgb(15, 143, 212); 
+  padding-left: 10px;
+}
+
+.borderLeft {
+  height: 100%;
+  width: 5px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.borderNaproxen {
+  background-color: red;
+}
+
+.borderInsulin {
+  background-color: blue;
+}
+
+.medInfo {
+  margin-left: 15px; 
+  flex: 1;
+}
+
+.medCard {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.medName {
+  font-weight: bold;
+}
+
+.dose, .time {
+  display: block;
+  margin-top: 5px;
+}
+
+.deleteButton {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  align-self: flex-end;
+  margin-top: 10px;
+  margin-left: 1rem;
+}
+
+.editButton {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  align-self: flex-end;
+  margin-top: 10px;
+  margin-left: 1rem;
+}
+
